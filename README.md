@@ -1,6 +1,6 @@
 # Nostra - Online Clothing Store 👗
 
-Nostra is a simple yet elegant online clothing store project developed using HTML, CSS, and JavaScript. The project focuses on creating a modern, interactive, and visually appealing web application. With a fully responsive design, it includes pages such as Home, Collection, Product, and Contact. This project was undertaken to gain familiarity with front-end web development, with a particular emphasis on JavaScript interactivity and responsive design.
+Nostra is a simple yet elegant online clothing store project developed using HTML, CSS, and JavaScript. The project focuses on creating a modern, interactive, and visually appealing web application. With a fully responsive design, it includes pages such as Home, Collection,and Contact. This project was undertaken to gain familiarity with front-end web development, with a particular emphasis on JavaScript interactivity and responsive design.
 
 ## 🚀 Project Features
 
@@ -11,7 +11,7 @@ Nostra is a simple yet elegant online clothing store project developed using HTM
 - **Sidebar Navigation:**  
   Open and close the sidebar by clicking the hamburger menu or the "X" icon. The sidebar provides easy access to other sections of the site.
 
-- **Like Button Toggle:** The like button toggles between a **red heart** (filled) and a **black outline heart** when clicked, indicating whether a product is liked or not.
+- **Like Button Toggle:** The like button toggles between a red heart (filled) and a black outline heart when clicked, indicating whether a product is liked or not.
 
 - **Image Slider:** Navigate through images of products using the left and right buttons to view more images.
 
@@ -34,6 +34,6 @@ Nostra is a simple yet elegant online clothing store project developed using HTM
 
 ## 🔗 Site Link
 
-Visit the website here: [Nostra]
+Visit the website here: [Nostra](https://krishna-govarthini.github.io/nostra/).
 
 ✨ Thank you for visiting!
