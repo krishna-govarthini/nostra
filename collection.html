@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra</title>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!--Link Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <!--Link Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+    <!-- Banner -->
+    <div id="banner" class="banner">
+        <p class="banner-head">Sign Up and <b style="font-size: 2vw;">GET 20% OFF</b> for your first Order <i
+                id="banner-close" style="margin-left: 45px; cursor: pointer;" class="fa-solid fa-xmark"></i></p>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <h1>Nostra</h1>
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="#new-arrival">New Arrival</a></p>
+            <p class="navbar-link"><a href="#most-wanted">Most Wanted</a></p>
+            <p class="navbar-link"><a href="collection.html">Collections</a></p>
+            <p class="navbar-link"><a href="contact.html">Contact Us</a></p>
+        </div>
+
+        <div class="navmenu">
+            <i style="font-size: 20px;" id="sideopen" class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Side Bar -->
+    <div id="sidebar" class="sidebar">
+        <p class="sideclosemark">
+            <i id="sideclose" class="fa-solid fa-xmark"></i>
+        </p>
+        <div class="sidebar-links">
+            <p><a href="index.html">Home</a></p>
+            <p><a href="#new-arrival">New Arrival</a></p>
+            <p><a href="#most-wanted">Most Wanted</a></p>
+            <p><a href="collection.html">Collections</a></p>
+            <p><a href="contact.html">Contact Us</a></p>
+        </div>
+    </div>
+
+    <!-- Product -->
+    <div class="product">
+        <div class="left-side">
+            <h2>Occasion</h2>
+            <div class="sideone">
+                <input type="checkbox" name="filter" value="summer"> Summer <br>
+                <input type="checkbox" name="filter" value="party"> Party <br>
+                <input type="checkbox" name="filter" value="beach"> Beach
+            </div>
+            <h2>Colors</h2>
+            <div class="sidetwo">
+                <input type="checkbox" name="filter" value="red"> Red <br>
+                <input type="checkbox" name="filter" value="blue"> Blue <br>
+                <input type="checkbox" name="filter" value="white"> White <br>
+                <input type="checkbox" name="filter" value="green"> Green
+            </div>
+            <h2>Arrivals</h2>
+            <div class="sidethree">
+                <input type="checkbox" name="filter" value="new"> New <br>
+                <input type="checkbox" name="filter" value="old"> Old
+            </div>
+        </div>
+        <hr class="line">
+        <div class="right-side">
+            <form class="right-search">
+                <input id="search" class="searchbar" type="search" placeholder="search"> <i style="font-size: 1.2vw;"
+                    class="fa-solid fa-magnifying-glass"></i>
+            </form>
+            <div class="right-cont">
+                <div class="right-img">
+                    <img src="img/products/f1.jpg" alt="shirt">
+                    <h2>Floral Shirt</h2>
+                    <p style="display: none;">summer,new, green, white</p>
+                    <p>220</p>
+                </div>
+                <div class="right-img">
+                    <img src="img/products/f3.jpg" alt="shirt">
+                    <h2>Vintage Shirt</h2>
+                    <p style="display: none;">party,old, red, green</p>
+                    <p>360</p>
+                </div>
+                <div class="right-img">
+                    <img src="img/products/n2.jpg" alt="shirt">
+                    <h2>Stripe Shirt</h2>
+                    <p style="display: none;">summer,old, blue</p>
+                    <p>240</p>
+                </div>
+                <div class="right-img">
+                    <img src="img/products/f5.jpg" alt="shirt">
+                    <h2>Beach Shirt</h2>
+                    <p style="display: none;">beach,old, blue, white</p>
+                    <p>420</p>
+                </div>
+                <div class="right-img">
+                    <img src="img/products/n1.jpg" alt="shirt">
+                    <h2>Blue Kurtha</h2>
+                    <p style="display: none;">summer,old, blue, white</p>
+                    <p>380</p>
+                </div>
+                <div class="right-img">
+                    <img src="img/products/f6.jpg" alt="shirt">
+                    <h2>Shirt Party Red</h2>
+                    <p style="display: none;">party,new, white, red</p>
+                    <p>300</p>
+                </div>
+                <div class="right-img">
+                    <img src="img/products/n4.jpg" alt="shirt">
+                    <h2>Floral Shirt</h2>
+                    <p style="display: none;">summer,new, green,red, white</p>
+                    <p>340</p>
+                </div>
+                <div class="right-img">
+                    <img src="img/products/f8.jpg" alt="shirt">
+                    <h2>Cubban Shirt</h2>
+                    <p style="display: none;">beach,new, blue, white</p>
+                    <p>480</p>
+                </div>
+                <div class="right-img">
+                    <img src="img/products/n5.jpg" alt="shirt">
+                    <h2>Denim Shirt</h2>
+                    <p style="display: none;">party,new, blue, white</p>
+                    <p>680</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Newsletter -->
+    <div class="news">
+        <h2>Join our News Letter</h2>
+        <h4>Signup for our email newspaper to get exclusive discounts, updates, and more</h4>
+        <input type="search">
+        <button class="news-button">Subscribe <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <h2>Nostra</h2>
+        <h4>The Standard chunk of Lorem ipsum used since the 1500s is reprodused below for those interest</h4>
+        <div class="footer-icon">
+            <i class="icon fa-brands fa-instagram"
+                style="color: #ffffff; font-size: 2vw; margin-right: 2%; margin-left: 2%;"></i>
+            <i class="icon fa-brands fa-twitter" style="color: #ffffff; font-size: 2vw; margin-right: 2%;"></i>
+            <i class="icon fa-brands fa-facebook" style="color: #ffffff; font-size: 2vw; margin-right: 2%;"></i>
+        </div>
+        <p>@ 2024 Nostra.com</p>
+    </div>
+
+    <!-- javascript file -->
+    <script src="collection.js"></script>
+</body>
+
+</html>

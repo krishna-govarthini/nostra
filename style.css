@@ -1,0 +1,557 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.banner {
+    background-color: #1D232C;
+    color: #E2E1E1;
+    padding: 5px;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navmenu {
+    display: block;
+    cursor: pointer;
+}
+
+.navbar-links {
+    display: none;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-links a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.sidebar {
+    position: fixed;
+    z-index: 20;
+    background-color: #1D232C;
+    padding: 2%;
+    top: 0;
+    left: -30%;
+    height: 100%;
+    width: 25%;
+    transition-duration: 1s;
+}
+
+.sideclosemark {
+    font-size: 18px;
+    text-align: right;
+    color: white;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.sidebar-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-links p {
+    margin-bottom: 30px;
+}
+
+.sidebar-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.sidebar-links a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* Media Query */
+@media screen and (min-width: 900px) {
+    .navbar-links {
+        display: flex;
+    }
+
+    .navmenu {
+        display: none;
+    }
+
+    .sidebar {
+        display: none;
+    }
+}
+
+.container {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.slider {
+    display: flex;
+    width: 100%;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.slide-container {
+    display: flex;
+    z-index: -1;
+}
+
+.slide-image {
+    width: 100vw;
+}
+
+.left-slide {
+    position: absolute;
+    left: 5%;
+    top: 28%;
+    font-size: 8vw;
+}
+
+.slide-content {
+    position: absolute;
+    top: 23%;
+    width: 100%;
+    text-align: center;
+}
+
+.slide-content h2 {
+    color: white;
+    font-size: 4.8vw;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.slide-content p {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.slide-content button {
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: black;
+}
+
+.right-slide {
+    position: absolute;
+    right: 5%;
+    top: 28%;
+    font-size: 8vw;
+}
+
+.brand {
+    margin-top: 5%;
+}
+
+.brand-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+
+.brand-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.brand-item img {
+    width: 4vw;
+}
+
+.brand-item h3 {
+    font-size: 2vw;
+    font-weight: 500;
+    margin-top: 4%;
+}
+
+.service {
+    margin-top: 5%;
+}
+
+.service-one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service-one h2 {
+    font-size: 2vw;
+}
+
+.service-one h3 {
+    font-size: 1.5vw;
+    font-weight: 400;
+}
+
+.service-two {
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1vw;
+}
+
+.service-two div {
+    background-color: #F2F4F7;
+    padding: 1.5%;
+}
+
+.service-two i {
+    font-size: 2.5vw;
+    margin-bottom: 3%;
+}
+
+.service-two h4 {
+    font-size: 1.2vw;
+    font-weight: bolder;
+    margin-bottom: 3%;
+}
+
+.service-two p {
+    font-size: 1vw;
+}
+
+.arrival {
+    margin-top: 5%;
+}
+
+.arrival-cont {
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4vw;
+}
+
+.arrival-item {
+    position: relative;
+}
+
+.arrival-item img {
+    width: 21vw;
+    border-radius: 5%;
+}
+
+.arrival-overlay {
+    border-radius: 5%;
+    position: absolute;
+    width: 21vw;
+    height: 21vw;
+    background-color: black;
+    z-index: 2;
+    top: 0;
+    opacity: 0.6;
+
+}
+
+.arrival-button {
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    padding: 5%;
+    color: black;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.2vw;
+    z-index: 2;
+}
+
+.wanted {
+    margin-top: 5%;
+}
+
+.wanted-cont {
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4vw;
+    overflow: scroll;
+}
+
+.wanted-cont::-webkit-scrollbar {
+    display: none;
+}
+
+.wanted-item {
+    position: relative;
+}
+
+.sale {
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-left: 4%;
+    padding-right: 4%;
+    color: white;
+    font-size: 1.5vw;
+    background-color: red;
+    position: absolute;
+    border: none;
+    border-radius: 8%;
+}
+
+.item {
+    width: 21vw;
+    border-radius: 5%;
+}
+
+.like-button {
+    position: absolute;
+    width: 3vw;
+    bottom: 10%;
+    right: 8%;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.limited {
+    margin-top: 5%;
+    background-color: #1D232C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5%;
+    gap: 5%
+}
+
+.limited-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.limited-content {
+    color: white;
+}
+
+.limited-content h2 {
+    font-size: 3.5vw;
+}
+
+.limited-content h4 {
+    font-size: 1.8vw;
+}
+
+.limited-button {
+    padding: 2%;
+    color: black;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.2vw;
+    margin-top: 2%;
+}
+
+.news {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.news h2 {
+    font-size: 3.5vw;
+    margin-bottom: .5%;
+}
+
+.news h4 {
+    font-size: 1.5vw;
+    font-weight: 400;
+    margin-bottom: 1%;
+}
+
+.news input {
+    margin-bottom: 1%;
+    width: 85%;
+    padding: .8%;
+    border: solid #1D232C 3px;
+}
+
+.news-button {
+    background-color: #1D232C;
+    padding: 1%;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+}
+
+.footer {
+    margin-top: 3%;
+    background-color: #1D232C;
+    color: white;
+    padding: 2%;
+}
+
+.footer h2 {
+    font-size: 3vw;
+    margin-bottom: .5%;
+}
+
+.footer h4 {
+    font-size: 1.5vw;
+    font-weight: 400;
+    margin-bottom: 1.2%;
+}
+
+.footer p {
+    margin-top: 1.2%;
+    font-size: 1.2vw;
+}
+
+/* Collection Page */
+
+.product {
+    display: flex;
+    margin-top: 2%;
+}
+
+.left-side {
+    flex-basis: 25%;
+    margin-left: 1.5%;
+}
+
+.left-side h2 {
+    font-size: 2.5vw;
+    margin-bottom: 2%;
+    margin-top: 10%;
+}
+
+.sideone,
+.sidetwo,
+.sidethree {
+    font-size: 2vw;
+}
+
+.line {
+    margin-right: 2%;
+    color: black;
+    border: solid;
+    border-width: 1.5px;
+}
+
+.right-side {
+    flex-basis: 75%;
+}
+
+.right-search {
+    width: 68vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .8vw;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.searchbar {
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.right-cont {
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 2%;
+}
+
+.right-img {
+    margin-bottom: 2%;
+}
+
+.right-img img {
+    width: 21vw;
+    border-radius: 5%;
+}
+
+.right-img h2 {
+    font-size: 2vw;
+}
+
+.right-img p {
+    font-size: 1.2vw;
+}
+
+/* Contact */
+
+.contact {
+    margin-top: 2%;
+}
+
+.contact-detail {
+    width: 60vw;
+    margin: auto;
+    background-color: #1D232C;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 4%;
+    gap: 5px;
+    border-radius: 10px;
+}
+
+.contact-detail h2 {
+    font-size: 24px;
+    margin-bottom: 1%;
+}
+
+.contact-detail label {
+    font-size: 18px;
+}
+
+.contact-detail input {
+    padding: 5%;
+    margin-bottom: 2%;
+    outline: none;
+}
+
+.contact-detail button {
+    padding: 1%;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: #0056B3;
+    width: fit-content;
+    font-size: 16px;
+    cursor: pointer;
+}
