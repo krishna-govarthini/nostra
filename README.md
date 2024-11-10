@@ -1,6 +1,6 @@
 # Nostra - Online Clothing Store
 
-**Nostra** is a simple yet elegant online clothing store project built using **HTML**, **CSS**, and **JavaScript**. The goal of the project was to create a modern, interactive, and visually appealing web application. This project features a fully responsive design with pages like **Home**, **Collection**, **Product**, and **Contact**. The site allows users to browse clothing collections, view individual products, search for specific items, and apply filters to narrow down product selection. It serves as a great introduction to front-end web development, particularly focusing on JavaScript interactivity and responsive design.
+Nostra is a simple yet elegant online clothing store project developed using HTML, CSS, and JavaScript. The project focuses on creating a modern, interactive, and visually appealing web application. With a fully responsive design, it includes pages such as Home, Collection, Product, and Contact. This project was undertaken to gain familiarity with front-end web development, with a particular emphasis on JavaScript interactivity and responsive design.
 
 ## Features
 
@@ -8,16 +8,16 @@
   The site is designed with responsiveness in mind, ensuring a seamless experience on desktop, tablet, and mobile devices.
 
 - **Interactive Banner** 🎉  
-  Click on the "X" mark to close the banner that provides promotional content.
+  Click on the "X" mark to close the promotional content banner.
 
 - **Sidebar Navigation** 🍔  
   Open and close the sidebar by clicking the hamburger menu or the "X" icon. The sidebar provides easy access to other sections of the site.
 
 - **Like Button Toggle** ❤️🖤  
-  The like button toggles between a red heart and a black heart when clicked, indicating a product is liked or not.
+  The like button toggles between a red heart and a black heart when clicked, indicating whether a product is liked or not.
 
 - **Image Slider** ⬅️➡️  
-  Navigate through images of products using left and right buttons to view more images.
+  Navigate through images of products using the left and right buttons to view more images.
 
 - **Product Search** 🔍  
   Search through products by typing keywords in the search bar. It will display matching products as you type.
