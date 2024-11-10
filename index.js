@@ -36,30 +36,29 @@ like.forEach(function (btn) {
 });
 
 // Function for slider
-const leftButton = document.getElementById('slider-left-activate');
-const rightButton = document.getElementById('slider-right-activate');
-const slideContainer = document.querySelector('.slide-container');
-const slides = slideContainer.querySelectorAll('.slide-image');
-let counter = 0;
+var sliderLeftButton = document.getElementById("slider-left-activate");
+var sliderRightButton = document.getElementById("slider-right-activate");
+var sliderContainer = document.querySelector(".slide-container");
+var sliderMargin = 0;
 
-// Set each slide's position
-slides.forEach(function (slide, index) {
-    slide.style.left = `${index * 100}%`;
+sliderRightButton.addEventListener("click", function () {
+    sliderMargin = sliderMargin + 100;
+
+    if (sliderMargin > 200) {
+        sliderMargin = 0;
+        sliderContainer.style.marginLeft = "0";
+    } else {
+        sliderContainer.style.marginLeft = "-" + sliderMargin + "vw";
+    }
 });
 
-leftButton.addEventListener('click', function () {
-    counter--;
-    slideImage();
+sliderLeftButton.addEventListener("click", function () {
+    sliderMargin = sliderMargin - 100;
+
+    if (sliderMargin < 0) {
+        sliderMargin = 200;
+        sliderContainer.style.marginLeft = "-" + sliderMargin + "vw";
+    } else {
+        sliderContainer.style.marginLeft = "-" + sliderMargin + "vw";
+    }
 });
-
-rightButton.addEventListener('click', function () {
-    counter++;
-    slideImage();
-});
-
-function slideImage() {
-    slides.forEach(function (slide) {
-        slide.style.transform = `translateX(-${counter * 100}%)`; // Corrected the typo here
-    });
-}
-
