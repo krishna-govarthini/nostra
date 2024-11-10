@@ -4,26 +4,20 @@ Nostra is a simple yet elegant online clothing store project developed using HTM
 
 ## 🚀 Project Features
 
-- **Responsive Layout** 📱  
-  The site is designed with responsiveness in mind, ensuring a seamless experience on desktop, tablet, and mobile devices.
+- **Responsive Layout:** The site is designed with responsiveness in mind, ensuring a seamless experience on desktop, tablet, and mobile devices.
 
-- **Interactive Banner** 🎉  
-  Click on the "X" mark to close the promotional content banner.
+- **Interactive Banner:** Click on the "X" mark to close the promotional content banner.
 
-- **Sidebar Navigation** 🍔  
+- **Sidebar Navigation:**  
   Open and close the sidebar by clicking the hamburger menu or the "X" icon. The sidebar provides easy access to other sections of the site.
 
-- **Like Button Toggle** ❤️🖤  
-  The like button toggles between a red heart and a black heart when clicked, indicating whether a product is liked or not.
+- **Like Button Toggle:** The like button toggles between a **red heart** (filled) and a **black outline heart** when clicked, indicating whether a product is liked or not.
 
-- **Image Slider** ⬅️➡️  
-  Navigate through images of products using the left and right buttons to view more images.
+- **Image Slider:** Navigate through images of products using the left and right buttons to view more images.
 
-- **Product Search** 🔍  
-  Search through products by typing keywords in the search bar. It will display matching products as you type.
+- **Product Search:** Search through products by typing keywords in the search bar. It will display matching products as you type.
 
-- **Product Filtering** 🏷️  
-  Use checkboxes to filter products by categories, showing only items that match the selected filters.
+- **Product Filtering:** Use checkboxes to filter products by categories, showing only items that match the selected filters.
 
 ## 🛠️ Technologies Used
 
@@ -31,7 +25,7 @@ Nostra is a simple yet elegant online clothing store project developed using HTM
 - CSS3
 - JavaScript
 
-## 📚 Learnings 
+## 📚 Learnings
 
 - Learned how to manipulate the DOM using JavaScript to handle events like clicking and toggling.
 - Gained experience in building responsive web pages with CSS to work across different screen sizes.
@@ -40,6 +34,6 @@ Nostra is a simple yet elegant online clothing store project developed using HTM
 
 ## 🔗 Site Link
 
-Visit the website here: [Nostra].
+Visit the website here: [Nostra]
 
 ✨ Thank you for visiting!
