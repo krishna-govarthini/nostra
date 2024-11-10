@@ -25,13 +25,9 @@ Nostra is a simple yet elegant online clothing store project developed using HTM
 - **Product Filtering** 🏷️  
   Use checkboxes to filter products by categories, showing only items that match the selected filters.
 
----
-
 ## Technologies Used
 
 - **HTML5**: Provides the structure of the web pages.
 - **CSS3**: Used for styling the layout, creating responsive designs, and ensuring a visually appealing interface.
 - **JavaScript**: Powers interactive elements such as the image slider, product filtering, search functionality, and dynamic sidebar.
 - **DOM Manipulation**: Utilized for handling user interactions and dynamically updating the content on the page.
-
----
