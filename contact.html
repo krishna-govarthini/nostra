@@ -14,15 +14,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
     <!-- Font Awesome -->
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
     <style>
-
         /* ==============================
            Contact Section
         ============================== */
@@ -158,131 +155,65 @@
             }
 
         }
-
     </style>
 
 </head>
 
 
 <body>
+    <!-- Banner -->
+    <div id="banner" class="banner">
+        <p class="banner-head">Sign Up and <b style="font-size: 2vw;">GET 20% OFF</b> for your first Order <i
+                id="banner-close" style="margin-left: 45px; cursor: pointer;" class="fa-solid fa-xmark"></i></p>
+    </div>
 
-
-    <!-- ==============================
-         Navbar
-    ============================== -->
-
+    <!-- Navbar -->
     <nav class="navbar">
-
         <h1>Nostra</h1>
-
         <div class="navbar-links">
-
-            <p class="navbar-link">
-                <a href="index.html">Home</a>
-            </p>
-
-            <p class="navbar-link">
-                <a href="#new-arrival">New Arrival</a>
-            </p>
-
-            <p class="navbar-link">
-                <a href="#most-wanted">Most Wanted</a>
-            </p>
-
-            <p class="navbar-link">
-                <a href="collection.html">Collections</a>
-            </p>
-
-            <p class="navbar-link">
-                <a href="contact.html">Contact Us</a>
-            </p>
-
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="#new-arrival">New Arrival</a></p>
+            <p class="navbar-link"><a href="#most-wanted">Most Wanted</a></p>
+            <p class="navbar-link"><a href="collection.html">Collections</a></p>
+            <p class="navbar-link"><a href="contact.html">Contact Us</a></p>
         </div>
-
 
         <div class="navmenu">
-
-            <i
-                style="font-size: 20px;"
-                id="side-navbar-activate"
-                class="fa-solid fa-bars">
-            </i>
-
+            <i style="font-size: 20px;" id="sideopen" class="fa-solid fa-bars"></i>
         </div>
-
     </nav>
 
-
-
-    <!-- ==============================
-         Sidebar
-    ============================== -->
-
-    <div class="sidebar">
-
+    <!-- Side Bar -->
+    <div id="sidebar" class="sidebar">
         <p class="sideclosemark">
-
-            <i
-                id="sideclose"
-                class="fa-solid fa-xmark">
-            </i>
-
+            <i id="sideclose" class="fa-solid fa-xmark"></i>
         </p>
-
-
         <div class="sidebar-links">
-
-            <p>
-                <a href="index.html">Home</a>
-            </p>
-
-            <p>
-                <a href="#new-arrival">New Arrival</a>
-            </p>
-
-            <p>
-                <a href="#most-wanted">Most Wanted</a>
-            </p>
-
-            <p>
-                <a href="collection.html">Collections</a>
-            </p>
-
-            <p>
-                <a href="contact.html">Contact Us</a>
-            </p>
-
+            <p><a href="index.html">Home</a></p>
+            <p><a href="#new-arrival">New Arrival</a></p>
+            <p><a href="#most-wanted">Most Wanted</a></p>
+            <p><a href="collection.html">Collections</a></p>
+            <p><a href="contact.html">Contact Us</a></p>
         </div>
-
     </div>
 
 
-
-    <!-- ==============================
-         Contact Form
-    ============================== -->
+    <!-- Contact Form -->
 
     <div class="contact">
 
 
-        <form
-            class="contact-detail"
+        <form class="contact-detail"
             action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00DgK00000RdguK"
             method="POST">
 
 
             <!-- Salesforce Configuration -->
 
-            <input
-                type="hidden"
-                name="oid"
-                value="00DgK00000RdguK">
+            <input type="hidden" name="oid" value="00DgK00000RdguK">
 
 
-            <input
-                type="hidden"
-                name="retURL"
-                value="https://krishna-govarthini.github.io/nostra/thankyou.html">
+            <input type="hidden" name="retURL" value="https://krishna-govarthini.github.io/nostra/thankyou.html">
 
 
             <!-- Heading -->
@@ -296,12 +227,7 @@
                 First Name
             </label>
 
-            <input
-                type="text"
-                id="first_name"
-                name="first_name"
-                maxlength="40"
-                placeholder="Enter your first name"
+            <input type="text" id="first_name" name="first_name" maxlength="40" placeholder="Enter your first name"
                 required>
 
 
@@ -312,14 +238,16 @@
                 Last Name
             </label>
 
-            <input
-                type="text"
-                id="last_name"
-                name="last_name"
-                maxlength="80"
-                placeholder="Enter your last name"
+            <input type="text" id="last_name" name="last_name" maxlength="80" placeholder="Enter your last name"
                 required>
 
+            <!-- Company -->
+
+            <label for="company">
+                Company
+            </label>
+
+            <input type="text" id="company" name="company" maxlength="40" placeholder="Enter your company name">
 
 
             <!-- Email -->
@@ -328,13 +256,7 @@
                 Email
             </label>
 
-            <input
-                type="email"
-                id="email"
-                name="email"
-                maxlength="80"
-                placeholder="Enter your email"
-                required>
+            <input type="email" id="email" name="email" maxlength="80" placeholder="Enter your email" required>
 
 
 
@@ -344,12 +266,7 @@
                 Phone
             </label>
 
-            <input
-                type="tel"
-                id="phone"
-                name="phone"
-                maxlength="40"
-                placeholder="Enter your phone number">
+            <input type="tel" id="phone" name="phone" maxlength="40" placeholder="Enter your phone number">
 
 
 
@@ -359,20 +276,13 @@
                 Message
             </label>
 
-            <textarea
-                id="description"
-                name="description"
-                placeholder="How can we help you?"></textarea>
+            <textarea id="description" name="description" placeholder="How can we help you?"></textarea>
 
 
 
             <!-- Lead Source -->
 
-            <input
-                type="hidden"
-                id="lead_source"
-                name="lead_source"
-                value="Web">
+            <input type="hidden" id="lead_source" name="lead_source" value="Web">
 
 
 
@@ -388,9 +298,7 @@
 
 
 
-    <!-- ==============================
-         Newsletter
-    ============================== -->
+    <!-- Newsletter -->
 
     <div class="news">
 
@@ -415,9 +323,7 @@
 
 
 
-    <!-- ==============================
-         Footer
-    ============================== -->
+    <!-- Footer -->
 
     <div class="footer">
 
@@ -431,21 +337,16 @@
 
         <div class="footer-icon">
 
-            <i
-                class="icon fa-brands fa-instagram"
+            <i class="icon fa-brands fa-instagram"
                 style="color: #ffffff; font-size: 2vw; margin-right: 2%; margin-left: 2%;">
             </i>
 
 
-            <i
-                class="icon fa-brands fa-twitter"
-                style="color: #ffffff; font-size: 2vw; margin-right: 2%;">
+            <i class="icon fa-brands fa-twitter" style="color: #ffffff; font-size: 2vw; margin-right: 2%;">
             </i>
 
 
-            <i
-                class="icon fa-brands fa-facebook"
-                style="color: #ffffff; font-size: 2vw; margin-right: 2%;">
+            <i class="icon fa-brands fa-facebook" style="color: #ffffff; font-size: 2vw; margin-right: 2%;">
             </i>
 
         </div>
@@ -459,7 +360,7 @@
 
     <!-- JavaScript -->
 
-    <script src=""></script>
+    <script src="contact.js"></script>
 
 </body>
 
